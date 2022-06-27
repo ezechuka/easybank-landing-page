@@ -30,8 +30,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [FrontendMentor](https://www.frontendmentor.io/solutions/fully-responsive-easybank-landing-page-2JjaD01hmM)
+- Live Site URL: [Netlify](https://easy-bank-landiing-page.netlify.app/)
 
 ## My process
 
