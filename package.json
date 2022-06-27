@@ -1,0 +1,13 @@
+{
+  "name": "easybank-landing-page",
+  "version": "1.0.0",
+  "description": "![Design preview for the Easybank landing page coding challenge](./design/desktop-preview.jpg)",
+  "main": "index.js",
+  "scripts": {
+    "build": "tailwindcss -i ./input.css -o ./css/style.css",
+    "watch": "tailwindcss -i ./input.css -o ./css/style.css --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

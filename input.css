@@ -1,0 +1,58 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+#main-section {
+    background-image: url('/images/bg-intro-mobile.svg');
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: -45%;
+}
+
+#mobile-menu {
+    animation: menuopen;
+    animation-duration: .25s;
+    animation-timing-function: ease-in;
+}
+
+.no-scroll {
+    overflow: hidden;
+}
+
+@keyframes menuopen {
+    from {
+        opacity: 0;
+    }
+    
+    to {
+        opacity: 1;
+    }
+}
+
+.indicator:hover::after  {
+    content:'';
+    width: 100%;
+    position: absolute;
+    height: 4px;
+    bottom: -24px;
+    background: linear-gradient(to right, hsl(136, 65%, 51%), hsl(192, 70%, 51%));
+      
+}
+
+body {
+    overflow-x: hidden;
+}
+
+.overlay {
+    box-shadow: inset 0 90px 100px hsl(233, 26%, 24%);
+}
+
+@media(min-width: 976px) {
+    #main-section {
+        background-image: url('/images/bg-intro-desktop.svg');
+        background-repeat: no-repeat;
+        background-size: 1000px;
+        background-position-x: 630px;
+        background-position-y: -205px;
+    }
+}
